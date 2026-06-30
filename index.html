@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AspisOS Enterprise — high-assurance, capability-confined isolation</title>
+<meta name="description" content="The commercial home of AspisOS: a high-assurance, capability-confined operating system for isolating secrets and workloads. Open core, paid assurance — and every dollar funds security audits and open engineering.">
+<link rel="canonical" href="https://aspisos.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="AspisOS Enterprise — high-assurance, capability-confined isolation">
+<meta property="og:description" content="Open core, paid assurance. Revenue funds security audits and open driver/kernel/userspace engineering — built to break even, not to extract.">
+<meta property="og:url" content="https://aspisos.com/">
+<meta property="og:image" content="https://aspisos.com/assets/wallpaper.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icon-square.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ───────────────────────── NAV ───────────────────────── -->
+<header class="nav" id="top">
+  <a class="nav__brand" href="#top" aria-label="AspisOS Enterprise home">
+    <img src="assets/logo.png" alt="AspisOS" height="26">
+    <span class="nav__edition">Enterprise</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#model">Model</a>
+    <a href="#mission">Mission</a>
+    <a href="#enterprise">Enterprise</a>
+    <a href="https://aspisos.org" target="_blank" rel="noopener">Open project ↗</a>
+    <a class="nav__cta" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<!-- ───────────────────────── HERO ───────────────────────── -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="eyebrow">Open core · paid assurance · funded by mission, not margin</p>
+    <h1>Isolation you can <span class="accent">prove</span>,<br>not just assert.</h1>
+    <p class="lede">
+      AspisOS is a from-scratch, capability-confined operating system with no root and
+      a deliberately minimal trusted base. The commercial edition wraps it in the things
+      a serious deployment needs — certified builds, attestation, fleet policy, and
+      support — for workloads where isolating secrets and tenants is the whole job.
+    </p>
+    <div class="cta">
+      <a class="btn btn--primary" href="#contact">Become a design partner</a>
+      <a class="btn btn--ghost" href="https://aspisos.org" target="_blank" rel="noopener">Explore the open project</a>
+    </div>
+    <p class="disclaimer">
+      <strong>Built in the open, honest about maturity.</strong> AspisOS is early — a v1
+      research-grade system hardening toward production. We'd rather have the right design
+      partners now than oversell a finished product.
+    </p>
+  </div>
+</section>
+
+<!-- ───────────────────────── MODEL ───────────────────────── -->
+<section class="section" id="model">
+  <h2 class="section__title">Open core, paid assurance</h2>
+  <p class="section__sub">The operating system is open and stays open. What you pay for is the work and the guarantees on top of it — never a wall around someone else's contribution.</p>
+
+  <div class="grid grid--2">
+    <article class="card card--open">
+      <h3>Always open</h3>
+      <ul class="ticks">
+        <li>The whole OS — kernel, userland, the capability model</li>
+        <li>Every driver, and all community &amp; vendor contributions</li>
+        <li>The package ecosystem and the desktop</li>
+      </ul>
+      <p class="card__foot">Source-available, hackable, yours. The commons never gets walled off.</p>
+    </article>
+    <article class="card card--paid">
+      <h3>Commercial</h3>
+      <ul class="ticks">
+        <li>Support &amp; SLA, and a tested stable update channel</li>
+        <li>Certified, reproducible, <em>attested</em> builds</li>
+        <li>Warden — fleet identity, capability policy, and enrollment</li>
+        <li>The high-assurance hypervisor &amp; confidential-compute tooling</li>
+      </ul>
+      <p class="card__foot">Your own engineering and services — what we build and stand behind, not what the community gave.</p>
+    </article>
+  </div>
+  <p class="model__note">
+    Drivers and community work live in the open core, where everyone shares them. We monetize
+    assurance, management, and support — the things that are genuinely ours to sell. If we ever
+    take a community contribution into a commercial component, it's under a clear, up-front
+    agreement, never a surprise.
+  </p>
+</section>
+
+<!-- ───────────────────────── MISSION ───────────────────────── -->
+<section class="section section--mission" id="mission">
+  <h2 class="section__title">Where your money goes</h2>
+  <p class="section__sub">A different kind of vendor: this isn't a margin business. It's a way to keep the work funded.</p>
+
+  <div class="mission__statement">
+    <p>
+      AspisOS is not built to maximize profit. Every dollar that comes in through the
+      commercial edition is pointed back at the thing itself:
+    </p>
+    <ul class="mission__list">
+      <li><span class="m">Independent security audits</span> — paying outside experts to attack the kernel and find what we can't.</li>
+      <li><span class="m">Paid engineering</span> — funding real driver, kernel, and userspace work, all of it landing in the open core that everyone uses.</li>
+      <li><span class="m">Keeping it alive</span> — the goal is to break even and stay funded, not to extract.</li>
+    </ul>
+    <p class="mission__why">
+      That's not just principle — it's why the incentives are safe to trust. There's no
+      investor pressure to rug-pull a license, no reason to starve the open core to upsell
+      you. When you pay for AspisOS Enterprise, you're funding a more-audited, better-supported,
+      more-secure system that <strong>stays open</strong>. The money compounds into the commons,
+      not away from it.
+    </p>
+  </div>
+</section>
+
+<!-- ───────────────────────── ENTERPRISE ───────────────────────── -->
+<section class="section" id="enterprise">
+  <h2 class="section__title">What the enterprise edition is for</h2>
+  <p class="section__sub">One primitive — capability-confined isolation — applied to the three things organizations most need to keep apart.</p>
+
+  <div class="grid grid--3">
+    <article class="card">
+      <h3>Isolate workloads <span class="tag">building</span></h3>
+      <p>A minimal, attestable, capability-confined type-1 hypervisor. Run untrusted tenants — or a rented-GPU AI workload — with a trusted base small enough to audit, instead of a 30-million-line host you have to take on faith.</p>
+    </article>
+    <article class="card">
+      <h3>Isolate secrets <span class="tag">building</span></h3>
+      <p>The OS that guards the keys, not the one that runs the compute. Encrypted-at-rest, capability-gated, attested — the root of trust an AI or data deployment asks before it releases anything.</p>
+    </article>
+    <article class="card">
+      <h3>Isolate authority <span class="tag">building</span></h3>
+      <p>Warden — a capability-native directory. Fleet identity and policy expressed as capability grants, not registry sprawl. Software-airgap a role by simply not granting it the network.</p>
+    </article>
+  </div>
+
+  <div class="grid grid--3 enterprise__svc">
+    <article class="card card--svc">
+      <h3>Support &amp; SLA</h3>
+      <p>Direct access to the people who wrote it, and a tested stable channel rather than the bleeding edge.</p>
+    </article>
+    <article class="card card--svc">
+      <h3>Certified builds</h3>
+      <p>Reproducible, signed, attestable images on a validated hardware list — so "it's running trusted AspisOS" is something you can <em>verify</em>.</p>
+    </article>
+    <article class="card card--svc">
+      <h3>Long-term assurance</h3>
+      <p>The audits and hardening your subscription funds, delivered back as a system you can defend to a regulator.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ───────────────────────── WHO ───────────────────────── -->
+<section class="section section--alt" id="who">
+  <h2 class="section__title">Who it's for</h2>
+  <p class="section__sub">Not "a lighter Linux for everyone." A sharper tool for the people who have to prove isolation, not just claim it.</p>
+  <div class="who">
+    <span>Confidential &amp; multi-tenant compute</span>
+    <span>Teams fleeing big-TCB hypervisors</span>
+    <span>Regulated &amp; sovereign environments</span>
+    <span>Secret / key-management appliances</span>
+    <span>Anyone who must <em>attest</em> what they run</span>
+  </div>
+</section>
+
+<!-- ───────────────────────── CONTACT ───────────────────────── -->
+<section class="section section--contact" id="contact">
+  <h2 class="section__title">Talk to us</h2>
+  <p class="section__sub">
+    It's early, and that's the point — the right design partners shape what this becomes.
+    If your workload lives or dies on provable isolation, we'd like to hear about it.
+  </p>
+  <div class="cta cta--center">
+    <a class="btn btn--primary" href="mailto:enterprise@aspisos.com">enterprise@aspisos.com</a>
+    <a class="btn btn--ghost" href="https://github.com/AspisOS" target="_blank" rel="noopener">See the work ↗</a>
+  </div>
+</section>
+
+<!-- ───────────────────────── FOOTER ───────────────────────── -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo.png" alt="AspisOS" height="22">
+      <p>High-assurance, capability-confined isolation. Open core, paid assurance — funded to break even and keep the work going.</p>
+    </div>
+    <nav class="footer__cols">
+      <div>
+        <h4>Project</h4>
+        <a href="https://aspisos.org" target="_blank" rel="noopener">Open project (.org)</a>
+        <a href="https://github.com/AspisOS" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/AspisOS/Aegis" target="_blank" rel="noopener">Aegis kernel</a>
+      </div>
+      <div>
+        <h4>Enterprise</h4>
+        <a href="#model">The model</a>
+        <a href="#mission">Where your money goes</a>
+        <a href="mailto:enterprise@aspisos.com">Get in touch</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer__base">
+    <span>© AspisOS. Created by Dylan Hart.</span>
+    <span>Built with Claude Code.</span>
+  </div>
+</footer>
+
+</body>
+</html>
